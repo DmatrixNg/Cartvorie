@@ -583,9 +583,9 @@ background-color: #EEEEEE;
   -moz-flex-box: 1;
   -o-flex-box: 1;
   flex-box: 1;
-  width: 209px;
+  width: 203px;
   color: #fff;
-  height: 100px;
+  height: 90px;
   border-radius: 20px;
   background-image: linear-gradient(to right, #7d07e4, #cb00fe 100px);
 }
@@ -1008,7 +1008,7 @@ ul.row-sm {
 }
 .stores-1 img {
   border-radius: 20px 20px 0px 0px;
-  width: 200px;
+  width: 220px;
   height: 120px;
   object-fit: cover;
 }
@@ -1022,7 +1022,8 @@ ul.row-sm {
 }
 .stores-desc {
   height: 3rem;
-  padding: 8px 0px 0px 26px;
+  padding: 8px 10px 0px 20px;
+  overflow-wrap: break-word;
   /* margin: auto; */
   /* position: relative; */
   /* display: inline-grid; */
@@ -1053,10 +1054,7 @@ ul.row-sm {
 .desc-footer span > img {
   width: 2rem;
 }
-.p-image img {
-
-  border-radius: 10px;
-}
+.p-image img {border-radius: 10px;}
 .list-bullet {
     list-style: none;
     padding-left: 0;
