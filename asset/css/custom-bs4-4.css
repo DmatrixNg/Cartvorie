@@ -10069,7 +10069,8 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
 }
 
 .text-center {
-    text-align: center!important
+    text-align: center!important;
+    z-index: 0;
 }
 
 @media (min-width: 576px) {

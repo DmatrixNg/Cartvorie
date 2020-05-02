@@ -630,12 +630,7 @@ background-color: #EEEEEE;
   z-index: 10;
 }
 
-.mid-full {
-
-  background: url(../img/cc.jpeg) no-repeat fixed center top;
-background-blend-mode: overlay;
-background-size: cover;
-}
+.mid-full {background: url(../img/cc.jpeg) no-repeat fixed center top;background-blend-mode: soft-light;background-size: cover;/* opacity: 0.9; *//* z-index: 0; */}
 /* .mid-full > * {
   z-index: 10;
 } */
