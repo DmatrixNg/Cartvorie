@@ -152,7 +152,7 @@ figure {
 
 img {
     vertical-align: middle;
-    border-style: none
+    border-style: none;
 }
 
 svg {
@@ -3329,6 +3329,9 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
 .dropup .dropdown-toggle:empty::after {
     margin-left: 0
 }
+.notify {
+    margin-left: 0;
+}
 
 .dropright .dropdown-menu {
     top: 0;
@@ -3337,7 +3340,10 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     margin-top: 0;
     margin-left: .125rem
 }
-
+.section-header {
+  font-family: sans-serif;
+  padding: 5px;
+}
 .dropright .dropdown-toggle::after {
     display: inline-block;
     margin-left: .255em;
@@ -5055,7 +5061,7 @@ a.badge:focus,a.badge:hover {
 }
 
 .badge:empty {
-    display: none
+    display: none;
 }
 
 .btn .badge {
@@ -6889,7 +6895,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
 
 .d-inline-flex {
     display: -ms-inline-flexbox!important;
-    display: inline-flex!important
+    display: inline-flex!important;
 }
 
 @media (min-width: 576px) {

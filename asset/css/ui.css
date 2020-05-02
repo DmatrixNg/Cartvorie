@@ -1004,21 +1004,24 @@ ul.row-sm {
 }
 .stores-1 {
   border-radius: 20px;
+  width: min-content;
   background-color: #fbf4fe;
 }
 .stores-1 img {
   border-radius: 20px 20px 0px 0px;
-  width: 220px;
+  width: 200px;
   height: 120px;
   object-fit: cover;
 }
 .stores {
   border-radius: 20px;
   background-color: #fbf4fe;
+  width: 220px;
+  overflow: hidden;
 }
 .stores img {
   border-radius: 20px 20px 0px 0px;
-  width: 200px;
+  width: 220px;
 }
 .stores-desc {
   height: 3rem;
@@ -1039,18 +1042,53 @@ ul.row-sm {
   /* bottom: 20px; */
   /* width: 71px; */
   display: flex;
-  width: 100%;
+  width: 110%;
   padding: 20px 0px;
 }
+
 .desc-footer i {
   color: #cc00ff;
   padding-right: 3px;
   font-size: larger;
 }
+
 .desc-footer span {
   /* width: 16rem; */
-  margin: auto;
+  margin: 0px 36px 0px 20px;
 }
+.desc-footer-top span {
+  /* width: 16rem; */
+  background-color: #cc00ff;
+  margin: auto;
+  position: absolute;
+}
+.desc-footer-top span:first-child {padding: 10px;font-size: xx-large;top: 10px;height: 60px;/* background: bisque; */width: 60px;border-radius: 50%;left: 5px;}
+.desc-footer-top span:last-child {
+  padding: 16px;
+  font-size: x-large;
+  top: 10px;
+  height: 60px;
+  /* background: bisque; */
+  width: 60px;
+  border-radius: 50%;
+  right: 5px;
+}
+
+.desc-footer-top {
+  position: relative;
+  top: 16px;
+  z-index: 10;
+  /* right: 0px; */
+  /* display: flex; */
+  /* width: 25%; */
+  /* padding: 20px 0px; */
+}
+.desc-footer-top i {
+  color: #cc00ff;
+  padding-right: 3px;
+  font-size: larger;
+}
+
 .desc-footer span > img {
   width: 2rem;
 }
@@ -1431,14 +1469,14 @@ a[class*='card']:hover .title {
 
 .notify {
     position: absolute;
-    top: -4px;
-    right: -10px;
+    /* top: -4px; */
+    /* right: -10px; */
     display: inline-block;
-    padding: .25em .6em;
+    padding: 0.3em 0.4em;
     font-size: 12px;
-    line-height: 1;
-    text-align: center;
-    border-radius: 3rem;
+    /* line-height: 1; */
+    /* text-align: center; */
+    border-radius: 50%;
     color: #fff;
     background-color: #fa3434;
 }
