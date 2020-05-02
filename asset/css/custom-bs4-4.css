@@ -675,7 +675,7 @@ pre code {
 .col-10 {
     -ms-flex: 0 0 83.333333%;
     flex: 0 0 83.333333%;
-    max-width: 83.333333%
+    max-width: 83.333333%;
 }
 
 .col-11 {
@@ -7204,7 +7204,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
 
 .justify-content-end {
     -ms-flex-pack: end!important;
-    justify-content: flex-end!important
+    justify-content: flex-end!important;
 }
 
 .justify-content-center {

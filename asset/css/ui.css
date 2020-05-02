@@ -616,7 +616,7 @@ background-color: #EEEEEE;
     z-index: 1;
 }
 
-}
+
 .slider-img > * {
   z-index: 10;
 }
@@ -629,6 +629,16 @@ background-color: #EEEEEE;
   bottom: 30%;
   z-index: 10;
 }
+
+.mid-full {
+
+  background: url(../img/cc.jpeg) no-repeat fixed center top;
+background-blend-mode: overlay;
+background-size: cover;
+}
+/* .mid-full > * {
+  z-index: 10;
+} */
 .brand-wrap .logo,
 .navbar-brand .logo {
     margin-right: 7px;
@@ -1042,7 +1052,7 @@ ul.row-sm {
   /* bottom: 20px; */
   /* width: 71px; */
   display: flex;
-  width: 110%;
+  width: 115%;
   padding: 20px 0px;
 }
 
