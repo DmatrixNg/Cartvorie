@@ -1275,9 +1275,7 @@ a[class*='card']:hover .title {
 .brand-image a {
 
 }
-.brand-image span {
-
-}
+.brand-image span {margin-top: -20px;}
 .card-product-grid .topbar {
     position: absolute;
     top: 0;
