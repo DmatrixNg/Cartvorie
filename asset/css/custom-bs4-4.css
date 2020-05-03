@@ -4710,7 +4710,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     min-height: 1px;
-    padding: 1.25rem
+    padding: 1.25rem;
 }
 
 .card-title {
@@ -7209,7 +7209,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
 
 .justify-content-center {
     -ms-flex-pack: center!important;
-    justify-content: center!important
+    justify-content: center!important;
 }
 
 .justify-content-between {
