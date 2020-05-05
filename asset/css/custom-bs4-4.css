@@ -4920,7 +4920,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     margin-bottom: 1rem;
     list-style: none;
     background-color: #e9ecef;
-    border-radius: .25rem
+    border-radius: .25rem;
 }
 
 .breadcrumb-item+.breadcrumb-item {
@@ -8447,7 +8447,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
 }
 
 .pl-4,.px-4 {
-    padding-left: 1.5rem!important
+    padding-left: 1.5rem!important;
 }
 
 .p-5 {
@@ -8571,7 +8571,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
 }
 
 .m-auto {
-    margin: auto!important
+    margin: auto!important;
 }
 
 .mt-auto,.my-auto {
@@ -10070,7 +10070,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
 
 .text-center {
     text-align: center!important;
-    z-index: 0;
+    z-index: 1;
 }
 
 @media (min-width: 576px) {
